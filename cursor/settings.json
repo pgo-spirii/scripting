@@ -1,0 +1,79 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "eslint.format.enable": true,
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "window.zoomLevel": 1,
+    "editor.formatOnSave": true,
+    "[typescript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "terminal.integrated.scrollback": 9999999,
+    "files.associations": {
+        "*.tidal": "haskell"
+    },
+    "haskell.manageHLS": "GHCup",
+    "haskell.serverExecutablePath": "haskell-language-server-wrapper",
+    "haskell.formattingProvider": "ormolu",
+    "[haskell]": {
+        "editor.defaultFormatter": "haskell.haskell",
+        "editor.formatOnSave": true,
+        "editor.suggestSelection": "first",
+        "editor.tabSize": 2
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*.hi": true,
+        "**/*.o": true
+    },
+    "code-runner.executorMap": {
+        "haskell": "ghci"
+    },
+    "code-runner.runInTerminal": true,
+    "editor.largeFileOptimizations": false,
+    "[hcl]": {
+        "editor.defaultFormatter": "hashicorp.hcl",
+        "editor.formatOnSave": true
+    },
+    "[terraform]": {
+        "editor.defaultFormatter": "hashicorp.hcl",
+        "editor.formatOnSave": true
+    },
+    "[terragrunt]": {
+        "editor.defaultFormatter": "hashicorp.hcl",
+        "editor.formatOnSave": true
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[dockercompose]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true
+        },
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "database-client.autoSync": true,
+    "go.toolsManagement.autoUpdate": true,
+    "editor.tabCompletion": "on",
+    "editor.inlineSuggest.enabled": true
+}
